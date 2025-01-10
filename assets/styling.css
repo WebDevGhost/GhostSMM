@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #141414, #141414, #1a0d2b);
+  animation: glowingBackground 10s infinite alternate;
+  overflow-x: hidden;
+}
+
+@keyframes glowingBackground {
+  0% { filter: brightness(0.9); }
+  50% { filter: brightness(1.1); }
+  100% { filter: brightness(1); }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0.25rem;
+  }
+}
+
+button, a, input, textarea {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button, .interactive {
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s, color 0.3s;
+}
+
+button:hover, .interactive:hover {
+  transform: scale(1.05);
+}
+
+button:active, .interactive:active {
+  transform: scale(0.95);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+@media (max-width: 768px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.gradient-background {
+  background: linear-gradient(135deg, #0d0d2b, #1a0d2b);
+  animation: glowingBackground 10s infinite alternate;
+}
