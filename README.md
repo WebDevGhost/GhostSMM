@@ -56,5 +56,5 @@ Phone: Unavailable
 <br>
 
 ### FAQ
-`Are Your services safe?` 100%! The whole point of the setup We have is to interact with Our Buyers more!
-`Do You have unlimited stock?` Definitely! You can be assured that Our services will always be available.
+`Are Your services safe?` 100%! The whole point of the setup We have is to interact with Our Buyers more!  
+`Do You have unlimited stock?` Definitely! You can be assured that Our services will always be available.  
