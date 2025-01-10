@@ -8,15 +8,7 @@
 html, body {
   height: 100%;
   font-family: 'Arial', sans-serif;
-  background: linear-gradient(135deg, #141414, #141414, #1a0d2b);
-  animation: glowingBackground 10s infinite alternate;
   overflow-x: hidden;
-}
-
-@keyframes glowingBackground {
-  0% { filter: brightness(0.9); }
-  50% { filter: brightness(1.1); }
-  100% { filter: brightness(1); }
 }
 
 .container {
