@@ -14,7 +14,9 @@ Hey there and welcome to GhostSMM! Cheap and affordable SMM services for fast an
 - TikTok  
 - Twitter  
 - Pinterest  
-- Reddit  
+- Reddit
+- Twitch
+- Kik  
 - Discord  
 - YouTube  
 - Spotify  
